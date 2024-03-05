@@ -18,7 +18,7 @@ Welcome to our Wikipedia Article Recommendation System project repository! This 
 
 * <b>Scraping:</b> To perform scraping, install the required libraries provided in the .py files inside the scrapy folder. Use the following command in the command line:
 
-    python scrap.py -l [list of initial links] (OPTIONAL) -n [sites to scrap (Default 1000)]
+        python scrap.py -l [list of initial links] (OPTIONAL) -n [sites to scrap (Default 1000)]
 
 * <b>Results Viewing:</b> Download or view the Report.ipynb on GitHub. Note that interactive graphs representing similarities had to be removed to reduce notebook size.
 * <b>Notebook Running:</b> To run the notebook, download the scraped *.csv files containing the data and place them in the same folder as the Report.ipynb. Also, download the scrapy folder for scraping functionalities. Ensure to download all mentioned libraries in the report and .py files from the scrapy folder.
